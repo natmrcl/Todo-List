@@ -34,3 +34,21 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
 } 
+
+
+.add-button {
+    background: rgb(6, 24, 33);
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius:20%;
+  }
+  
+.add-button:hover {
+    color: rgb(6, 24, 33);
+    background-color: #fff;
+}
+  
