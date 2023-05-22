@@ -1,0 +1,22 @@
+.empty-message {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: rgba(253, 253, 253, 0.32);
+    animation: slide-in 0.7s ease-in-out;
+}
+
+p {
+    font-size: smaller;
+}
+
+@keyframes slide-in {
+    0% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+  
