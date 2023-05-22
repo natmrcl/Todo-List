@@ -3,7 +3,7 @@
   }
   
 .left-section {
-    flex-basis: 25%;
+    flex-basis: 27%;
     /* background: rgba(253, 253, 253, 0.32); */
     border-radius: 5px;
     padding: 20px;
@@ -11,7 +11,7 @@
   
 .right-section {
     /* background-color: #8758ff; */
-    flex-basis: 80%;
+    flex-basis: 75%;
     display: flex;
     flex-direction: row;
 }
@@ -56,8 +56,8 @@
   
   
 .right-half::-webkit-scrollbar, .left-half::-webkit-scrollbar {
-    width: 0; /* Menyembunyikan lebar scroll bar */
-    background-color: transparent; /* Mengatur latar belakang scroll bar menjadi transparan */
+    width: 0; 
+    background-color: transparent; 
 }
   
 .icon {
@@ -68,13 +68,3 @@
 .todo-input::placeholder {
     color: grey;
 }
-
-.fa-trash {
-    margin-left: 0.75rem;
-}
-  
-.completed {
-    color: rgb(45, 44, 44);
-    text-decoration: line-through;
-}
-  

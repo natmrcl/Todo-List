@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Londrina+Outline&display=swap');
 
 body {
-  background-image: url(bg.jpg);
-  background-size: 100%;
+  /* background-size: 100%; */
   margin: 50px;
 }
 

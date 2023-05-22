@@ -7,6 +7,31 @@
     animation: slide-in 0.3s ease-in-out;
 }
 
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.fa-ssquare {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 3px;
+  height: 15px;
+  width: 15px;
+}
+
+.fa-square {
+  color: transparent;
+} 
+
+.faCheckSquare {
+  margin-right: -10px;
+}
+
+.completed {
+  color: rgb(45, 44, 44);
+  text-decoration: line-through;
+}
+
 @keyframes slide-in {
     0% {
       transform: translateY(-10%);
